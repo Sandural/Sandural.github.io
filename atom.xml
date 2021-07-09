@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Sandural.github.io</id>
     <title>Ricky</title>
-    <updated>2021-07-09T08:32:20.217Z</updated>
+    <updated>2021-07-09T08:46:51.602Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Sandural.github.io"/>
     <link rel="self" href="https://Sandural.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://Sandural.github.io/images/avatar.png</logo>
     <icon>https://Sandural.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Ricky</rights>
+    <entry>
+        <title type="html"><![CDATA[视频学习与文档学习]]></title>
+        <id>https://Sandural.github.io/post/shi-pin-xue-xi-yu-wen-dang-xue-xi/</id>
+        <link href="https://Sandural.github.io/post/shi-pin-xue-xi-yu-wen-dang-xue-xi/">
+        </link>
+        <updated>2021-07-09T08:32:27.000Z</updated>
+        <content type="html"><![CDATA[<p>对于开发技术, 很多人宁愿看视频学习, 也不想直接看文档学习! 比如我就是其中一员. 为啥呢?</p>
+<blockquote>
+<p>人类学习效率最高的方式, 不是 &quot;读书 + 思考&quot; , 而是 &quot;观察 + 模仿&quot;. 前者需要较长的时间, 后者只需要短时间的注意力, 这更符合人类的天性!</p>
+</blockquote>
+<p>有些知识，读书读半天也不一定明白，但是亲眼看别人做一遍，马上就能懂。即使不完全懂，至少知道怎么模仿。所以才会有 <code>百闻（文）不如一见</code>，人们更容易接受形象的东西，而不是抽象的文字。</p>
+<p>大部分领域的入门方式，都是 <code>观察和模仿</code>，所以视频学习更有效。 <strong>对于深入学习，文字和书籍的效果可能好于视频</strong>，因为入门以后再往上走，<code>理解 + 思考</code> 的作用越来越大，<code>观察 + 模仿</code> 的作用越来越小。但是，大多数人需要的只是入门，成为专业工作者毕竟是少数。</p>
+<p>所以，<strong>视频学习才是初学者更好的方式</strong>，或者说，视频是大众学习的主流，读书更适用于某个主题的进阶学习。</p>
+<p>我一般学习新东西一般先看视频. 然后在学习的过程中有不懂的地方, 再细看文档, 查漏补缺.<br>
+每个人的学习习惯不一样, 共勉! 😄</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea]]></title>
         <id>https://Sandural.github.io/post/hello-gridea/</id>
