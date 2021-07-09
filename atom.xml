@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Sandural.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-07-09T02:22:29.461Z</updated>
+    <title>Ricky</title>
+    <updated>2021-07-09T02:26:57.714Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Sandural.github.io"/>
     <link rel="self" href="https://Sandural.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://Sandural.github.io/images/avatar.png</logo>
     <icon>https://Sandural.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, Ricky</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://Sandural.github.io/post/hello-gridea/</id>
