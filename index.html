@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>抽象的旁观者</title>
+<link rel="shortcut icon" href="https://sandural.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://sandural.github.io/media/css/tailwind.css">
+<link rel="stylesheet" href="https://sandural.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="抽象的旁观者 - Atom Feed" href="https://sandural.github.io/atom.xml">
+
+    
+
+  <meta name="description" content="know yourself" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://sandural.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
+      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      抽象的旁观者
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      know yourself
+    </div>
+    
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://sandural.github.io/images/avatar.png?v=1711721327455" alt="抽象的旁观者" width="100%" height="100%">
+  </div>
+</header>
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://sandural.github.io/post/xu-wu-zhu-yi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          虚无主义
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2024-03-27</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        第一级：看山是山，本能的活着
+这是大部分人的生存状态，或者说是所有人最开始的状态。只是本能的活着，不会过多的思考，也不会过多的怀疑。就像黑客帝国里还没有发现自己是生活在虚拟世界里的人们一样，人们本能地追求着生活，本能的执着自己的执着。他们追...
+      </div>
+      <a href="https://sandural.github.io/post/xu-wu-zhu-yi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://sandural.github.io/post/ren-shi-zun-shou-gui-ze-de-ji-qi-me/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          人是遵守“规则”的机器么？
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2024-03-25</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        在昨夜的漫步中，Sophy执意要冲过那盏红灯，她的坚持让我的思绪飘回到上周五的那个瞬间。那天，她刚刚放学，周遭一片静寂，没有车辆的迹象。我领着她穿越了那道红灯，她的疑问随风飘来：“红灯呢！我们为何要过马路？”我简单的回复道：“在确保安全的情...
+      </div>
+      <a href="https://sandural.github.io/post/ren-shi-zun-shou-gui-ze-de-ji-qi-me/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://sandural.github.io/post/2024319/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          词典翻译笔：有道 P6 VS 讯飞 P20plus
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2024-03-19</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        有道的产品有一个非常大的问题：扫描句子和语音识别都是逊色于讯飞的这款产品的。虽然讯飞的内置词典不多，导致翻译单词的内容也不够丰富，再加上不支持云盘之类的软件。但是一款扫描笔最重要的还是准确性。
+
+输入的内容是错误的，输出结果再丰富也是无用的...
+      </div>
+      <a href="https://sandural.github.io/post/2024319/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://sandural.github.io" target="_blank">抽象的旁观者</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://sandural.github.io/media/scripts/main.js"></script>
+</body>
+
+</html>
